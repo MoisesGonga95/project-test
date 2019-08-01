@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio</title>
+</head>
+<body>
+    <h1>Teste Project 1</h1>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    <br> Ipsam distinctio sit mollitia tenetur, corporis voluptate sapiente doloribus eveniet ad minus atque? Facilis doloribus qui sapiente illum repudiandae voluptas, unde quaerat. 
+
+
+    <p>Alternatively, you can double the first slash to avoid POSIX-to-Windows path conversion, e.g. "<code>//usr/bin/bash.exe</code>".</p></li>
+<li>Windows drives are normally recognised within the POSIX path as <code>/c/path/to/dir/</code> where <code>/c/</code> (or appropriate drive letter) is equivalent to the <code>C:\</code> Windows prefix to the <code>\path\to\dir</code>. If this is not recognised, revert to the <code>C:\path\to\dir</code> Windows style.</li>
+<li>Git for Windows will not allow commits containing DOS-style truncated 8.3-format filenames ending with a tilde and digit, such as <code>mydocu~1.txt</code>. A workaround is to call <code>git config core.protectNTFS false</code>, which is not advised. Instead, add a rule to .gitignore to ignore the file(s), or rename the file(s).</li>
+<li>Many Windows programs (including the Windows Explorer) have problems with directory trees nested so deeply that the absolute path is longer than 260 characters. Therefore, Git for Windows refuses to check out such files by default. You can overrule this default by setting <code>core.longPaths</code>, e.g. <code>git clone -c core.longPaths=true ...</code>.</li>
+<li>Some commands are not yet supported on Windows and excluded from the installation.</li>
+<li>As Git for Windows is shipped without Python support, <code>git p4</code> (which is backed by a Python script) is not supported.</li>
+<li>The Quick Launch icon will only be installed for the user running setup (typically the Administrator). This is a technical restriction and will not change.</li>
+<li>Older versions of the Windows Explorer do <em>not</em> calculate Git for Windows' on-disk size correctly, as it is unaware of hard links. Therefore, it might look like Git for Windows takes up 1.5GB when in reality it is about a third of that.</li>
+</ul>
+</body>
+</html>
